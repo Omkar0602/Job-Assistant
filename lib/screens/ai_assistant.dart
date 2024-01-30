@@ -53,7 +53,7 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   Future<String> _getChatGptResponse(String userMessage) async {
-    final apiKey = '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'; // Replace with your actual GPT-3.5 Turbo API key
+    final apiKey = 'API-Key Here'; // Replace with your actual GPT-3.5 Turbo API key
   final endpoint = 'https://api.openai.com/v1/chat/completions';
 
   final response = await http.post(
